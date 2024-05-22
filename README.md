@@ -1,6 +1,4 @@
-Here is the full content of the `README.md` file:
 
-```markdown
 # Front-End Developer Task
 
 This project is a mini-application developed as part of the Front-End Developer Role task. It includes basic UI components and functionality using React, TypeScript, Redux, and Tailwind CSS.
