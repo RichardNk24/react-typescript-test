@@ -36,7 +36,7 @@ const DiscountCode = () => {
       />
       <button 
         onClick={generateCode} 
-        className="w-full p-3 mb-4 text-lg rounded-lg bg-slate-800 hover:bg-slate-900 text-white transition-colors duration-300">
+        className="w-1/5 p-3 mb-4 text-lg rounded-lg bg-slate-800 hover:bg-slate-900 text-white transition-colors duration-300">
         Generate Code
       </button>
       {generatedCode && <p className="text-lg text-white">Generated Code: {generatedCode}</p>}

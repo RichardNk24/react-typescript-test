@@ -21,7 +21,7 @@ const RadioButtons = () => {
               value={option}
               checked={selectedOption === option}
               onChange={handleOptionChange}
-              className="mr-2 accent-purple-500"
+              className="mr-2 accent-purple-500 cursor-pointer"
             />
             {option}
           </label>
