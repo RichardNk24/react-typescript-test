@@ -34,12 +34,12 @@ This project is a mini-application developed as part of the Front-End Developer 
 
 ## Decisions
 
-- State Management: Decided to use Redux for state management to handle the state of radio buttons and notes, ensuring a scalable and maintainable state architecture.
-- UI Styling: Utilized Tailwind CSS for styling to ensure a responsive and modern UI, leveraging utility-first CSS for quick and efficient design implementation.
-- Component Design: Created individual, reusable components for each feature (RadioButtons, DiscountCode, NoteField) to maintain a modular and clean codebase.
-- Validation Logic: Implemented a simple validation logic for the discount code to demonstrate basic form validation techniques.
-- Random Code Generation: Added a random code generation feature to enhance the interactivity and functionality of the discount code component.
-- Accessibility Considerations: Ensured focus states and keyboard accessibility to improve the overall user experience and accessibility of the application.
+- **State Management**: Decided to use Redux for state management to handle the state of radio buttons and notes, ensuring a scalable and maintainable state architecture.
+- **UI Styling**: Utilized Tailwind CSS for styling to ensure a responsive and modern UI, leveraging utility-first CSS for quick and efficient design implementation.
+- **Component Design**: Created individual, reusable components for each feature (RadioButtons, DiscountCode, NoteField) to maintain a modular and clean codebase.
+- **Validation Logic**: Implemented a simple validation logic for the discount code to demonstrate basic form validation techniques.
+- **Random Code Generation**: Added a random code generation feature to enhance the interactivity and functionality of the discount code component.
+- **Accessibility Considerations**: Ensured focus states and keyboard accessibility to improve the overall user experience and accessibility of the application.
 
 ## Contact
 
