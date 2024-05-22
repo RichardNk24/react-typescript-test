@@ -11,35 +11,22 @@ const RadioButtons = () => {
   };
 
   return (
-    <div className="p-4">
-      <h2 className="text-xl">Select an Option:</h2>
-      <label>
-        <input
-          type="radio"
-          value="Option A"
-          checked={selectedOption === 'Option A'}
-          onChange={handleOptionChange}
-        />
-        Option A
-      </label>
-      <label>
-        <input
-          type="radio"
-          value="Option B"
-          checked={selectedOption === 'Option B'}
-          onChange={handleOptionChange}
-        />
-        Option B
-      </label>
-      <label>
-        <input
-          type="radio"
-          value="Option C"
-          checked={selectedOption === 'Option C'}
-          onChange={handleOptionChange}
-        />
-        Option C
-      </label>
+    <div className="p-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg shadow-lg">
+      <h2 className="text-2xl font-semibold text-white mb-4">Select an Option:</h2>
+      <div className="space-y-2">
+        {['Option A', 'Option B', 'Option C'].map(option => (
+          <label key={option} className="block text-white">
+            <input
+              type="radio"
+              value={option}
+              checked={selectedOption === option}
+              onChange={handleOptionChange}
+              className="mr-2 accent-purple-500"
+            />
+            {option}
+          </label>
+        ))}
+      </div>
     </div>
   );
 };
