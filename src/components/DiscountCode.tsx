@@ -17,7 +17,7 @@ const DiscountCode = () => {
   };
 
   return (
-    <div className="p-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg shadow-lg">
+    <div className="p-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg shadow-lg mt-6">
       <h2 className="text-2xl font-semibold text-white mb-4">Enter Discount Code:</h2>
       <input
         type="text"
