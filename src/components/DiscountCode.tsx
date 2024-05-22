@@ -17,20 +17,22 @@ const DiscountCode = () => {
   };
 
   return (
-    <div className="p-4">
-      <h2 className="text-xl">Enter Discount Code:</h2>
+    <div className="p-6 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg shadow-lg">
+      <h2 className="text-2xl font-semibold text-white mb-4">Enter Discount Code:</h2>
       <input
         type="text"
         value={code}
         onChange={handleCodeChange}
-        className="border p-2"
+        className="w-full p-3 mb-4 text-lg rounded-lg border-2 border-transparent focus:border-white focus:outline-none bg-white text-gray-700"
       />
-      <button onClick={generateCode} className="ml-2 p-2 bg-blue-500 text-white">
+      <button 
+        onClick={generateCode} 
+        className="w-full p-3 mb-4 text-lg rounded-lg bg-purple-600 hover:bg-purple-800 text-white transition-colors duration-300">
         Generate Code
       </button>
-      {generatedCode && <p className="mt-2">Generated Code: {generatedCode}</p>}
+      {generatedCode && <p className="text-lg text-white">Generated Code: {generatedCode}</p>}
       {!validateCode(code) && code && (
-        <p className="text-red-500">Invalid Discount Code</p>
+        <p className="text-red-300 text-lg mt-2">Invalid Discount Code</p>
       )}
     </div>
   );
