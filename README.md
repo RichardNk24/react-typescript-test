@@ -9,7 +9,7 @@ This project is a mini-application developed as part of the Front-End Developer 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-typescript-app.git
+   git clone https://github.com/RichardNk24/react-typescript-test.git
    cd react-typescript-app
    ```
 
