@@ -30,7 +30,7 @@ This project is a mini-application developed as part of the Front-End Developer 
 ## Assumptions
 
 - The discount code pattern is "DISCOUNT2024".
-- The generated mock discount code is "NEWCODE123".
+- The generated discount codes are random alphanumeric strings of 10 characters.
 
 ## Decisions
 
