@@ -42,7 +42,3 @@ This project is a mini-application developed as part of the Front-End Developer 
 ## Contact
 
 For any queries, please contact me at richardsobelnkulu@gmail.com
-
-```
-
-Make sure to replace the placeholder `richardsobelnkulu@gmail.com` with your actual email address and update the GitHub repository link if necessary.
