@@ -36,6 +36,7 @@ This project is a mini-application developed as part of the Front-End Developer 
 
 - Used Redux for state management to handle the state of radio buttons and notes.
 - Tailwind CSS was used for styling to ensure a responsive and polished UI.
+- implemented a random code generator for the discount code to enhance User experience.
 
 ## Contact
 
