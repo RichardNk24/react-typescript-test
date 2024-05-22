@@ -12,8 +12,17 @@ const DiscountCode = () => {
     return code === 'DISCOUNT2024';
   };
 
+  const generateRandomCode = () => {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let randomCode = '';
+    for (let i = 0; i < 10; i++) {
+      randomCode += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    return randomCode;
+  };
+
   const generateCode = () => {
-    setGeneratedCode('NEWCODE123');
+    setGeneratedCode(generateRandomCode());
   };
 
   return (
@@ -27,7 +36,7 @@ const DiscountCode = () => {
       />
       <button 
         onClick={generateCode} 
-        className="w-full p-3 mb-4 text-lg rounded-lg bg-purple-600 hover:bg-purple-800 text-white transition-colors duration-300">
+        className="w-full p-3 mb-4 text-lg rounded-lg bg-slate-700 hover:bg-slate-800 text-white transition-colors duration-300">
         Generate Code
       </button>
       {generatedCode && <p className="text-lg text-white">Generated Code: {generatedCode}</p>}
