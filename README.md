@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+Here is the full content of the `README.md` file:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# Front-End Developer Task
 
-Currently, two official plugins are available:
+This project is a mini-application developed as part of the Front-End Developer Role task. It includes basic UI components and functionality using React, TypeScript, Redux, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-typescript-app.git
+   cd react-typescript-app
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Components
+
+- **RadioButtons**: A set of radio buttons allowing the user to select an option.
+- **DiscountCode**: A text box for entering a discount code with basic validation and a button to generate a mock discount code.
+- **NoteField**: A text area for users to enter notes.
+
+## Assumptions
+
+- The discount code pattern is "DISCOUNT2024".
+- The generated mock discount code is "NEWCODE123".
+
+## Decisions
+
+- Used Redux for state management to handle the state of radio buttons and notes.
+- Tailwind CSS was used for styling to ensure a responsive and polished UI.
+
+## Contact
+
+For any queries, please contact me at richardsobelnkulu@gmail.com
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Make sure to replace the placeholder `richardsobelnkulu@gmail.com` with your actual email address and update the GitHub repository link if necessary.
