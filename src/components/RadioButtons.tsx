@@ -11,7 +11,7 @@ const RadioButtons = () => {
   };
 
   return (
-    <div className="p-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg shadow-lg">
+    <div className="lg:w-4/5 lg:mx-auto p-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg shadow-lg">
       <h2 className="text-2xl font-semibold text-white mb-4">Select an Option:</h2>
       <div className="space-y-2">
         {['Option A', 'Option B', 'Option C'].map(option => (

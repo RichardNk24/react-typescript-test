@@ -26,7 +26,7 @@ const DiscountCode = () => {
   };
 
   return (
-    <div className="p-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg shadow-lg mt-6">
+    <div className="lg:w-4/5 lg:mx-auto p-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg shadow-lg mt-6">
       <h2 className="text-2xl font-semibold text-white mb-4">Enter Discount Code:</h2>
       <input
         type="text"
@@ -36,7 +36,7 @@ const DiscountCode = () => {
       />
       <button 
         onClick={generateCode} 
-        className="w-1/5 p-3 mb-4 text-lg rounded-lg bg-slate-800 hover:bg-slate-900 text-white transition-colors duration-300">
+        className="w-[200px] p-3 mb-4 text-lg rounded-lg bg-slate-800 hover:bg-slate-900 text-white transition-colors duration-300">
         Generate Code
       </button>
       {generatedCode && <p className="text-lg text-white">Generated Code: {generatedCode}</p>}
